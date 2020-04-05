@@ -209,7 +209,7 @@ android:focusable="true"
 
 ---
 
-感谢B站大佬longway777的[视频教程](https://www.bilibili.com/video/BV1ct411K7tp/?spm_id_from=333.788.videocard.0)
+感谢B站大佬longway777的[视频教程](https://www.bilibili.com/video/BV1w4411k7iY)
 
 如果侵权，请联系qq:1766816333
 立即删除
