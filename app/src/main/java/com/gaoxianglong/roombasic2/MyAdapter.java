@@ -54,7 +54,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         // 这也是实现的父类的抽象方法，在这个方法中，做数据的绑定
         Word word = mWords.get(position); // 通过position(当前是第几itemView)获取到word中的对应数据
-        holder.textViewNumber.setText(String.valueOf(position - 1)); // 设置布局中显示序号的textView,因为position是从0开始的，所以需要加1
+        holder.textViewNumber.setText(String.valueOf(position + 1)); // 设置布局中显示序号的textView,因为position是从0开始的，所以需要加1
         holder.textViewEnglish.setText(word.getWord()); // 设置布局中显示单词的textView,通过获取到的word中对应数据对象获取到单词
         holder.textViewChinese.setText(word.getChineseMeaning()); // 设置显示中文意思的textView
         // 给item设置点击事件
